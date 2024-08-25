@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body,
+html{
+  margin:0;
+  padding:0;
+}
+
+body{
+  min-height:100vh;
+  min-width:100vw;
+  background-image: url("https://preview.redd.it/61wkodll5zky.jpg?auto=webp&s=5671a107a2b1feb63cee168f96cb50c0e179b786");
+  background:linear-gradient(to right bottom,rgba(blue,0.5),rgba(green,0.5)),url(http://i.imgur.com/woUbg3p.jpg);
+  background-size:cover;
+  background-position:center center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#header{
+  /* border-radius:10rem; */
+  width:80vw;
+  /* max-width:400px;
+  min-width:300px; */
+  height:40vh;
+  background:url(http://i.imgur.com/woUbg3p.jpg);
+  background-size:cover;
+  background-position: center center;
+  transition: all .08s linear;
+}
+.main{
+  margin-top:2rem;
+}
+#profile{
+  width:80vw;
+  /* max-width:400px;
+  min-width:300px; */
+  /* margin-top:10rem; */
+  /* margin-top: 10rem; */
+  height:100vh;
+  background:black;
+  position:relative;
+  box-sizing:border-box;
+  padding-top:40px;
+  padding-left:25px;
+  font-family: 'Open Sans', sans-serif;
+  .image{
+    position:absolute;
+    border:3px solid white;
+    top:-55px;
+    left: 20px;
+    height:80px;
+    width:80px;
+    border-radius:10px;
+    img{
+      width:inherit;
+      height:inherit;
+      border-radius:8px;
+    }
+  }
+  .name{
+    font-size:2rem;
+    font-weight:500;
+    color:white;
+    font-weight: 800;
+  }
+  /* .nickname{
+    color:#888;
+    font-size:0.9rem;
+    padding-bottom:7px;
+  } */
+  /* .location{
+    color:#555;
+    font-size:0.9rem;
+    padding-left:0px;
+    position:relative;
+    left:-5px;
+    .material-icons{
+      position:relative;
+      top:3px;
+      font-size:1rem;
+    }
+  } */
+}
+
+.shadow{
+  box-shadow: 0px 0px 10px 1px rgba(black,0.5);
+}
+
+.overflow{
+  overflow:hidden;
+}
+
+.f_cnt,
+.g_cnt{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1.5rem;
+  /* font-weight:bold; */
+  color:white;
+  font-weight:300;
+  justify-content: center;
+}
+/* .svg {
+  filter: invert(1);
+} */
+.g_cnt{
+  float:right;
+  /* font-weight:bold; */
+  padding-right:30px;
+  justify-content: center;
+}
+.friends,.games{
+  font-size: 1rem;
+}
+.bottom{
+  margin-top:10px;
+  /* padding-left:10rem; */
+  display: flex;
+  gap:10rem;
+  justify-content: center;
+}
+
+.count{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+}
