@@ -31,17 +31,9 @@ export const authoptions: NextAuthOptions = {
  
   providers: [
     GoogleProvider({
-      // clientId:"468380226032-j04icalahieeks3sridrhkbkek11ffms.apps.googleusercontent.com",
-      // clientSecret:"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",
       clientId:getGoogleCredentials().clientId,
       clientSecret:getGoogleCredentials().clientSecret,
-      // authorization:{
-      //   params:{
-      //     client:{
-      //       timeout:10000,
-      //     }
-      //   }
-      // }
+     
     },
   ),
   ],

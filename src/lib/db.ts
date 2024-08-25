@@ -20,8 +20,6 @@ function getrediscredentials() {
 
 
 export const db = new Redis({
-  // url:"https://concise-llama-54610.upstash.io",
-  // token:"AdVSAAIjcDE3YTdhZjExZWY2N2E0NDExYjgyOGEwZTE4NWFkNzUxM3AxMA",
   url:getrediscredentials().clientId,
   token:getrediscredentials().clientSecret,
 });
