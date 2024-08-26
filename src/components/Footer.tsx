@@ -19,22 +19,22 @@ const Footer = () => {
                     Job Search
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                   >
                     AI-powered Recommendations
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                   >
                     Personalized Training
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="/"
@@ -48,14 +48,14 @@ const Footer = () => {
             <div>
               <p className="font-medium tracking-wide text-gray-300">Resources</p>
               <ul className="mt-2 space-y-2">
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                   >
                     Community Support
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="/"
@@ -64,14 +64,14 @@ const Footer = () => {
                     Blog
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                   >
                     Case Studies
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="/"
@@ -109,14 +109,14 @@ const Footer = () => {
                     Careers
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                   >
                     Press
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="/"
@@ -154,14 +154,14 @@ const Footer = () => {
                     Cookie Policy
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                   >
                     Accessibility
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

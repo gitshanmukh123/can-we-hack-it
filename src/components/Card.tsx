@@ -1,8 +1,8 @@
 const Card = () => {
   return (
   
-    <div className="min-h-screen flex justify-center items-center">
-<div className="max-w-[14rem] container bg-gray-800 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+    <div className="min-h-40 flex justify-center items-center ">
+<div className="max-w-[14rem] container border-white border-2 hover:border-green-500 hover:border-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
 <div>
 <span className="text-white text-[0.75rem] font-bold rounded-lg bg-green-500 inline-block mt-3 ml-3 py-1 px-3 cursor-pointer">Home</span>
 <h1 className="text-xl mt-1.5 ml-3 font-bold text-white cursor-pointer hover:text-gray-300 transition duration-100">Lampara Look</h1>
@@ -29,7 +29,7 @@ const Card = () => {
       <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
     </svg>
   </span>
-  <span className="text-gray-400 t ext-sm">20</span>
+  <span className="text-gray-400 text-sm">20</span>
 </div>
 </div>
 </div>

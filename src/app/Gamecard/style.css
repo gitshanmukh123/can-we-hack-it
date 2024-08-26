@@ -1,0 +1,24 @@
+.bodyl {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0.3s ease;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .bodyl:hover {
+    transform: translateY(-10px) scale(1.05); /* Slightly lift and scale the div */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5); /* Add a shadow for the popping effect */
+    z-index: 10; /* Bring the div above other elements */
+  }
+  .game-info {
+    font-family: Arial, sans-serif; /* Change this to your preferred font family */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    font-style: italic; /* Apply italic style */
+    color: #ffffff; /* Change text color */
+  }
+  
+  .game-info-title {
+    font-size: 16px; /* Larger font size for titles */
+    font-weight: bold; /* Bold text for titles */
+    color: #ffcc00; /* Different color for titles */
+  }
