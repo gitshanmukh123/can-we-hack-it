@@ -11,10 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-<<<<<<< HEAD
     "@mui/icons-material": "^5.16.7",
-=======
->>>>>>> 14fcce3b53a0312299e2cb1cac504d1538345f68
     "@mui/material": "^5.16.7",
     "@next-auth/mongodb-adapter": "^1.1.3",
     "@next-auth/upstash-redis-adapter": "^3.0.4",

@@ -15,7 +15,7 @@ const page = () => {
             <img
               src="https://wallpaperaccess.com/full/6494761.jpg"
               className="h-8 rounded-full"
-              alt="Flowbite Logo"
+              alt="Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Gamify
